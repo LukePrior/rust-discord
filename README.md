@@ -23,4 +23,5 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 }
 ```
+![image](https://user-images.githubusercontent.com/22492406/235339407-b41aee8e-6724-4c2d-8bf5-74da38712008.png)
 
