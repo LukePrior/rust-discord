@@ -12,8 +12,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     loop {
         let payload = activity::Activity::new()
             .assets(activity::Assets::new()
-                .large_image("https://thumbs.gfycat.com/FavoriteSeveralIberianemeraldlizard-size_restricted.gif")
-                .small_image("https://is4-ssl.mzstatic.com/image/thumb/k2fiCG4xCKPhRLuygpzJlw/1200x675mf.jpg").small_text("Shrek")
+                .large_image("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif")
+                .small_image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Earth_from_Space.jpg/1200px-Earth_from_Space.jpg").small_text("Example")
             )
             .buttons(vec![
                 activity::Button::new("GitHub", "https://github.com/LukePrior/rust-discord"),
