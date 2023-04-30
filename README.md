@@ -2,7 +2,7 @@
 
 This application will set your Discord activity
 
-```
+```rust
 use discord_rich_presence::{activity, DiscordIpc, DiscordIpcClient};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
